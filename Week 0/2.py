@@ -2,7 +2,6 @@ import time
 
 start_time = time.process_time()
 
-
 def find_product_k(K, numbers):
     # Initialize DAT with False values
     DAT = [False] * (12999709 - (-12999709) + 1)

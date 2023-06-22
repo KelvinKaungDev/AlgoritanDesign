@@ -6,7 +6,7 @@ val = []
 
 start_time = time.process_time()
 for i in range(0, len(lt)):
-    for j in range(i + 1, len(lt)):
+    for j in range(i, len(lt)):
         if lt[i] * lt[j] == k:
             val.append(lt[j])
             val.append(lt[i])

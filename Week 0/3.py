@@ -17,7 +17,6 @@ def binary_search(arr, target):
 
     return False
 
-
 def find_product_k(K, numbers):
     numbers.sort()  # Sort the numbers in ascending order
 
@@ -31,7 +30,6 @@ def find_product_k(K, numbers):
                 return True
 
     return False
-
 
 # Example usage:
 K = int(input())  # Read the targeted product K from input or any other source
